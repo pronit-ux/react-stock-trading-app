@@ -1,0 +1,16 @@
+.delete-button {
+  visibility: hidden;
+  display: inline-block;
+}
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
